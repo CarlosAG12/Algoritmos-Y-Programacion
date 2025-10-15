@@ -1,6 +1,4 @@
 Algoritmo numeroAleatorio
-	//Hay una funcion integrada en PSeInt que me da un numero aleatorio pero en si seria muy facil entonces
-	//Investigando un poco encontre un ecuacion para dar un psudonumeroaleatorio entonces eso es lo que hare para ponerme un reto
 
 	Definir x,a,b,m,semilla, rangoInferior, rangoSuperior Como Entero;
 	Definir numeroFinalAleatorio Como Real;
@@ -9,7 +7,7 @@ Algoritmo numeroAleatorio
 	semilla = HoraActual() * 10000 + FechaActual();
 	a = 1103515245; // multiplicador
 	b = 12345; //Incremento 
-	m = 2147483647; //Residuo (Esto sirve para limitar el tamaño del numero)
+	m = 2147483647; //Residuo (Esto sirve para limitar el tamaÃ±o del numero)
 	
 	rangoInferior = 1;
 	rangoSuperior = 200;
@@ -24,3 +22,4 @@ Algoritmo numeroAleatorio
 	
 
 FinAlgoritmo
+
